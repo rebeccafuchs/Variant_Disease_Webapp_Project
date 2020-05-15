@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Database for Protein, Disease,and SNP</title>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"> 
+<link rel="stylesheet" href="style.css" type="text/css">
+<script src="util.js"></script>
+<script src="all_databases.js"></script>
+
+<button style="color:purple; font-size:18px;" onclick="renderdiseases()">Disease</button>
+<button style="color:green; font-size:18px;" onclick="renderproteins()">Proteins</button>
+<button style="color:blue; font-size:18px;" onclick="rendersnps()">SNPs</button>
+</head>
+<body onload="renderdiseases()">
+<h1 align="center">Database for Protein, Disease,and SNP </h1>
+<div id="search" style="float:right;"><P>Search disease table: <input size="20" onchange="changed(this);" onkeyup="keypressd(this,event);" autofocus /></P></div>
+<div id="search" style="float:left;"><P>Search SNPs table: <input size="20" onchange="changes(this);" onkeyup="keypresss(this,event);" autofocus /></P></div>
+<div id="search" style="float:center;"><P>Search protein table: <input size="20" onchange="changep(this);" onkeyup="keypressp(this,event);" autofocus /></P></div>
+<div id="container"/>
+
+</body>
+</html> 

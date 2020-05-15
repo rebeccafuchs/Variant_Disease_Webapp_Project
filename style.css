@@ -1,0 +1,53 @@
+
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+    background-color: HoneyDew;
+
+}
+
+td.sequence {
+	font-family: Courier, monospace;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+
+}
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: salmon;
+
+}
+tr:nth-child(even) {
+  background-color: LavenderBlush;
+}
+
+
+h1{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+    background-color: Turquoise;
+
+}
+
+p{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: MediumPurple;
+
+}
+button{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+    background-color: Plum;
+
+}
